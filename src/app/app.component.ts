@@ -4,11 +4,11 @@ import { RouterOutlet } from '@angular/router';
 //import { MultiplicacionComponent } from './formularios/multiplicacion/multiplicacion.component';
 import { initFlowbite } from 'flowbite';
 import { NavbarComponent } from './navbar/navbar.component';
-import { DistanciaComponent } from './formularios/distancia/distancia.component';
+//import { ZodiacoComponent } from './formularios/zodiaco/zodiaco.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavbarComponent, DistanciaComponent],
+  imports: [RouterOutlet, NavbarComponent],
   
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
